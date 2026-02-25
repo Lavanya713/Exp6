@@ -1,0 +1,31 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+
+  /* Beautiful Dark Gradient Background */
+  background: linear-gradient(
+    135deg,
+    #0f2027,
+    #203a43,
+    #2c5364
+  );
+
+  color: #ffffff;
+  padding: 40px 60px;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
